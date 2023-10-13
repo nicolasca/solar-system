@@ -4,7 +4,7 @@ import { Billboard, CameraControls, OrbitControls, OrthographicCamera, Perspecti
 import *  as THREE from "three"
 import sunTexture from './assets/textures/sun.jpg';
 import { normalizeDiameter, planets } from './planets';
-import { Planet } from './assets/components/Planet';
+import { Planet } from './components/Planet';
 
 const sunSize = 1392000
 
